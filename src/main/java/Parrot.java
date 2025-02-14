@@ -1,4 +1,4 @@
-public class Parrot extends Bird {
+public abstract class Parrot extends Bird {
     @Override
     public String speak() {
         return "Polly wants a cracker";
