@@ -3,17 +3,17 @@ public class Trainer {
         Duck d = new Duck();
         getToSpeak(d);
 
-        Bird b = (Bird) d;  // upcasting
+        Bird b = (Bird) d;  // upcasting by doing (Bird) d so treating d as a bird
         getToSpeak(b);
 
-        Animal a = (Animal) b; // upcasting
+        Animal a = (Animal) b; // upcasting, treating b as an animal
         getToSpeak(a);
 
         Duck d2 = (Duck) a; // downcasting
         getToSpeak(d2);
 
         train(new Duck());
-        // train(new Parrot());
+        //train(new Parrot());
 
         Animal a2 = new Animal();
         Bird b2 = new Bird();
